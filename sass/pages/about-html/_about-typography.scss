@@ -1,0 +1,18 @@
+//header
+.a-el-brand{
+  @include typo(1.2em, $white, 400);
+  font-family: bd-colonius, sans-serif;
+}
+
+//hero-section
+.a-ehs-temp-title{
+  @include typo(7em, $secondary-color, 900);
+  font-family: bd-colonius, sans-serif;
+  transition: color .3s ease-in-out;
+  transition: margin-top 1s ease-in;
+}
+
+//random-codez
+.sc__{
+  color: $secondary-color;
+}

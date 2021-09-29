@@ -1,0 +1,21 @@
+.ehs-gtb{
+  @include daBtn(none, 1px solid $white, 1em 2em);
+  @include typo(.9em, $white, 300);
+  transition: all .3s ease-in-out;
+  &:hover{
+    @include daBtn($secondary-color, 1px solid $secondary-color, 1em 2em);
+    @include typo(.9em, $white, 300);
+    cursor: pointer;
+  }
+}
+//baout-page
+.a-ehs-gtb{
+  @include daBtn(none, 1px solid $white, 1em 2em);
+  @include typo(.9em, $white, 300);
+  transition: all .3s ease-in-out;
+  &:hover{
+    @include daBtn($secondary-color, 1px solid $secondary-color, 1em 2em);
+    @include typo(.9em, $white, 300);
+    cursor: pointer;
+  }
+}
